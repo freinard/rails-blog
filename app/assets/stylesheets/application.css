@@ -13,3 +13,105 @@
  *= require_tree .
  *= require_self
  */
+
+html, body {
+    height: 100%;
+}
+
+html, body, h1, h2, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #484848;
+    color: #FFFFFF;
+}
+
+.sub-header {
+    padding: 10px 0px;
+}
+
+.links {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: #999999;
+    height: 100%;
+}
+
+.actions {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: steelblue;
+    height: 100%;
+}
+
+.posts {
+    /*background-color: lightgrey;*/
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    list-style-type: none;
+    border-style: none;
+    padding-left: 0px;
+}
+
+.post {
+    margin: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+}
+
+.posts > li{
+    background-color: white;
+}
+
+.post-header{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 5px;
+    background-color: lightcyan;
+}
+
+.post-text{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.post-actions{
+    padding-left: 5px;
+}
+
+.post-actions li{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    display: inline;
+    padding-right: 10px;
+}
